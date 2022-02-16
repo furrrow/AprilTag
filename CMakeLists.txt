@@ -32,3 +32,7 @@ if(OPENCV_FOUND)
   add_subdirectory(src/opencv)
 endif(OPENCV_FOUND)
 
+#find_package( OpenCV REQUIRED )
+#include_directories( ${OpenCV_INCLUDE_DIRS} )
+#add_subdirectory(src/opencv)
+
