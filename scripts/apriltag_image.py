@@ -1,5 +1,16 @@
 #!/usr/bin/env python
 
+"""
+My own python script for detecting April Tags from images
+
+a copy / modification of apriltag.py in the same directory
+
+Original author: Isaac Dulin, Spring 2016
+Updates: Matt Zucker, Fall 2016
+Updates: Tinker Twins, Spring 2021
+"""
+
+######################################################################
 from argparse import ArgumentParser
 import os
 import cv2
